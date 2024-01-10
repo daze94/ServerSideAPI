@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="weather-container">
+        <div id="search-container">
+            <h2>Search for a City:</h2>
+            <input type="text" id="city-input" placeholder="San Diego">
+            <button id="search-button">Search</button>
+            <div id="search-history"></div>
+        </div>
+        <div id="current-weather-container">
+            <h2 id="city-name-date">Atlanta (9/13/2022)</h2>
+            <p id="current-temp">Temp: 76.62°F</p>
+            <p id="current-wind">Wind: 8.43 MPH</p>
+            <p id="current-humidity">Humidity: 44 %</p>
+        </div>
+        <div id="forecast-container">
+            <h2>5-Day Forecast:</h2>
+            <div id="forecast-cards-container"></div> <!-- Cards will be inserted here -->
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

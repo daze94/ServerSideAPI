@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e4e4e4;
+    margin: 0;
+    padding: 0;
+}
+
+#weather-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#search-container {
+    width: 25%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    margin-right: 20px;
+}
+
+#current-weather-container {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+#search-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-history {
+    margin-top: 20px;
+}
+
+#search-history button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #dddddd;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#forecast-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+
+#forecast-cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-card {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+}
+
+.forecast-card:not(:last-child) {
+    margin-right: 2%;
+}
+
